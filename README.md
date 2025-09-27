@@ -532,6 +532,7 @@ Max [模型训练贡献]([https://github.com/0vszero)
 ## 🙏 致谢
 这只是项目一部份，希望更多小伙伴加入我们
 感谢以下技术和平台的支持：
+
 Anne老师[项目创建指导](https://github.com/WZF-Anne)
 - 阿里云通义千问 (Qwen) AI服务
 - OpenZeppelin安全框架
