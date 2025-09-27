@@ -1,0 +1,109 @@
+{"level":"info","message":"🔑 API Key exists: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:36.924Z"}
+{"level":"info","message":"🌐 Base URL: https://dashscope.aliyuncs.com/compatible-mode/v1","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:36.934Z"}
+{"level":"info","message":"✅ Qwen client initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:37.429Z"}
+{"level":"info","message":"📡 Using model: qwen-plus","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:37.430Z"}
+{"level":"info","message":"🧪 Testing Qwen connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:37.432Z"}
+{"level":"info","message":"Web3 client initialized successfully for private chain: https://ethereum-holesky-rpc.publicnode.com","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:37.484Z"}
+{"level":"info","message":"Chain ID: 17000, Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:37.485Z"}
+{"level":"info","message":"🔗 Testing private chain connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:37.485Z"}
+{"level":"info","message":"AIRiskControlService initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:38.005Z"}
+{"level":"info","message":"Main MongoDB (Hark) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:40.735Z"}
+{"level":"info","message":"Test MongoDB (testdata) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:40.742Z"}
+{"level":"info","message":"Database connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:40.746Z"}
+{"level":"info","message":"Redis URL not configured, skipping Redis connection","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:40.747Z"}
+{"level":"info","message":"Redis connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:40.754Z"}
+{"level":"info","message":"Server running on port 3001","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:40.760Z"}
+{"level":"error","message":"❌ Qwen connection test failed:","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:41.032Z"}
+{"level":"info","message":"✅ Private chain connection successful:","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:43.714Z"}
+{"level":"info","message":"   - Network listening: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:43.714Z"}
+{"level":"info","message":"   - Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:43.715Z"}
+{"level":"info","message":"   - Chain ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:43.715Z"}
+{"level":"info","message":"   - Current block: 4585254","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:43.715Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:16:45.353Z"}
+{"level":"info","message":"🔑 API Key exists: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:57.819Z"}
+{"level":"info","message":"🌐 Base URL: https://dashscope.aliyuncs.com/compatible-mode/v1","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:57.826Z"}
+{"level":"info","message":"✅ Qwen client initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:58.053Z"}
+{"level":"info","message":"📡 Using model: qwen-plus","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:58.053Z"}
+{"level":"info","message":"🧪 Testing Qwen connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:58.054Z"}
+{"level":"info","message":"Web3 client initialized successfully for private chain: https://ethereum-holesky-rpc.publicnode.com","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:58.072Z"}
+{"level":"info","message":"Chain ID: 17000, Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:58.072Z"}
+{"level":"info","message":"🔗 Testing private chain connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:58.073Z"}
+{"level":"info","message":"AIRiskControlService initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:58.305Z"}
+{"level":"info","message":"Main MongoDB (Hark) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:59.163Z"}
+{"level":"info","message":"Test MongoDB (testdata) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:59.165Z"}
+{"level":"info","message":"Database connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:59.166Z"}
+{"level":"info","message":"Redis URL not configured, skipping Redis connection","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:59.167Z"}
+{"level":"info","message":"Redis connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:59.169Z"}
+{"level":"info","message":"Server running on port 3001","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:59.172Z"}
+{"level":"error","message":"❌ Qwen connection test failed:","service":"defi-risk-backend","timestamp":"2025-09-27T17:17:59.425Z"}
+{"level":"info","message":"✅ Private chain connection successful:","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:01.838Z"}
+{"level":"info","message":"   - Network listening: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:01.838Z"}
+{"level":"info","message":"   - Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:01.838Z"}
+{"level":"info","message":"   - Chain ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:01.838Z"}
+{"level":"info","message":"   - Current block: 4585259","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:01.838Z"}
+{"level":"info","message":"🔑 API Key exists: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.723Z"}
+{"level":"info","message":"🌐 Base URL: https://dashscope.aliyuncs.com/compatible-mode/v1","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.726Z"}
+{"level":"info","message":"✅ Qwen client initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.865Z"}
+{"level":"info","message":"📡 Using model: qwen-plus","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.866Z"}
+{"level":"info","message":"🧪 Testing Qwen connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.866Z"}
+{"level":"info","message":"Web3 client initialized successfully for private chain: https://ethereum-holesky-rpc.publicnode.com","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.878Z"}
+{"level":"info","message":"Chain ID: 17000, Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.879Z"}
+{"level":"info","message":"🔗 Testing private chain connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:39.879Z"}
+{"level":"info","message":"AIRiskControlService initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.016Z"}
+{"level":"info","message":"Main MongoDB (Hark) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.695Z"}
+{"level":"info","message":"Test MongoDB (testdata) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.697Z"}
+{"level":"info","message":"Database connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.698Z"}
+{"level":"info","message":"Redis URL not configured, skipping Redis connection","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.699Z"}
+{"level":"info","message":"Redis connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.700Z"}
+{"level":"info","message":"Server running on port 3001","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.703Z"}
+{"level":"error","message":"❌ Qwen connection test failed:","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:40.994Z"}
+{"level":"info","message":"✅ Private chain connection successful:","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:44.372Z"}
+{"level":"info","message":"   - Network listening: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:44.373Z"}
+{"level":"info","message":"   - Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:44.373Z"}
+{"level":"info","message":"   - Chain ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:44.373Z"}
+{"level":"info","message":"   - Current block: 4585261","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:44.373Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:18:45.345Z"}
+{"level":"info","message":"🔑 API Key exists: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.324Z"}
+{"level":"info","message":"🌐 Base URL: https://dashscope.aliyuncs.com/compatible-mode/v1","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.333Z"}
+{"level":"info","message":"✅ Qwen client initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.667Z"}
+{"level":"info","message":"📡 Using model: qwen-plus","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.668Z"}
+{"level":"info","message":"🧪 Testing Qwen connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.668Z"}
+{"level":"info","message":"Web3 client initialized successfully for private chain: https://ethereum-holesky-rpc.publicnode.com","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.693Z"}
+{"level":"info","message":"Chain ID: 17000, Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.694Z"}
+{"level":"info","message":"🔗 Testing private chain connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:29.694Z"}
+{"level":"info","message":"AIRiskControlService initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:30.006Z"}
+{"level":"info","message":"Main MongoDB (Hark) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:31.370Z"}
+{"level":"info","message":"Test MongoDB (testdata) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:31.374Z"}
+{"level":"info","message":"Database connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:31.377Z"}
+{"level":"info","message":"Redis URL not configured, skipping Redis connection","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:31.377Z"}
+{"level":"info","message":"Redis connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:31.381Z"}
+{"level":"info","message":"Server running on port 3001","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:31.385Z"}
+{"level":"error","message":"❌ Qwen connection test failed:","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:32.040Z"}
+{"level":"info","message":"✅ Private chain connection successful:","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:35.547Z"}
+{"level":"info","message":"   - Network listening: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:35.548Z"}
+{"level":"info","message":"   - Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:35.548Z"}
+{"level":"info","message":"   - Chain ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:35.548Z"}
+{"level":"info","message":"   - Current block: 4585264","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:35.548Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:19:45.345Z"}
+{"level":"info","message":"🔑 API Key exists: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.144Z"}
+{"level":"info","message":"🌐 Base URL: https://dashscope.aliyuncs.com/compatible-mode/v1","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.150Z"}
+{"level":"info","message":"✅ Qwen client initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.423Z"}
+{"level":"info","message":"📡 Using model: qwen-plus","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.423Z"}
+{"level":"info","message":"🧪 Testing Qwen connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.424Z"}
+{"level":"info","message":"Web3 client initialized successfully for private chain: https://ethereum-holesky-rpc.publicnode.com","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.442Z"}
+{"level":"info","message":"Chain ID: 17000, Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.443Z"}
+{"level":"info","message":"🔗 Testing private chain connection...","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.444Z"}
+{"level":"info","message":"AIRiskControlService initialized successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:27.686Z"}
+{"level":"info","message":"Main MongoDB (Hark) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:28.882Z"}
+{"level":"info","message":"Test MongoDB (testdata) connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:28.886Z"}
+{"level":"info","message":"Database connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:28.888Z"}
+{"level":"info","message":"Redis URL not configured, skipping Redis connection","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:28.888Z"}
+{"level":"info","message":"Redis connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:28.892Z"}
+{"level":"info","message":"Server running on port 3001","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:28.896Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:29.039Z"}
+{"level":"error","message":"❌ Qwen connection test failed:","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:29.332Z"}
+{"level":"info","message":"✅ Private chain connection successful:","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:31.429Z"}
+{"level":"info","message":"   - Network listening: true","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:31.429Z"}
+{"level":"info","message":"   - Network ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:31.430Z"}
+{"level":"info","message":"   - Chain ID: 17000","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:31.430Z"}
+{"level":"info","message":"   - Current block: 4585267","service":"defi-risk-backend","timestamp":"2025-09-27T17:20:31.430Z"}
