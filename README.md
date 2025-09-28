@@ -12,7 +12,7 @@
 ### ✨ 核心特性
 
 - 🧠 **AI驱动风险分析** - 实时交易风险检测
-- ⚡ **实时监控系统** - 监控以太坊网络异常活动（
+- ⚡ **实时监控系统** - 监控以太坊网络异常活动（有待完善）
 - 🛡️ **智能合约审计** - 自动化Solidity代码安全分析
 - 📊 **可视化仪表板** - 直观的风险数据展示界面
 
@@ -52,10 +52,6 @@
 
 ### 安装步骤
 
-```bash
-# 克隆项目
-git clone https://github.com/your-username/AIxETH.git
-cd AIxETH
 
 # 安装根目录依赖
 npm install
@@ -322,8 +318,8 @@ CHAIN_ID=17000
 MONGODB_URI=mongodb://localhost:27017/Hark
 
 # 智能合约地址（部署后更新）
-RISK_ANALYZER_CONTRACT_ADDRESS=0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
-AI_RISK_CONTROLLER_CONTRACT_ADDRESS=0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+RISK_ANALYZER_CONTRACT_ADDRESS=
+AI_RISK_CONTROLLER_CONTRACT_ADDRESS=
 ```
 
 ### 🚀 连接Holesky测试网
@@ -534,6 +530,7 @@ Max [模型训练贡献]([https://github.com/0vszero)
 
 ## 🙏 致谢
 这只是项目一部份，希望更多小伙伴加入我们
+
 感谢以下技术和平台的支持：
 
 Anne老师[项目创建指导](https://github.com/WZF-Anne)
