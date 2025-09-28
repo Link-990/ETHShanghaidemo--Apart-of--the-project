@@ -122,104 +122,105 @@ npm run deploy:testnet
 
 ## 📁 项目结构
 
-AIxETH/黑客松/
-├── 📁 artifacts/                    # 编译产物和构建文件
-│   ├── @openzeppelin/              # OpenZeppelin合约编译结果
-│   ├── build-info/                 # 构建信息
-│   └── contracts/                  # 智能合约编译产物
-│       ├── AIRiskController.sol/   # AI风险控制器编译结果
-│       └── RiskAnalyzer.sol/       # 风险分析器编译结果
+AIxETH/demo项目/
+AIxETH/
+├── 📁 artifacts/ # 编译产物和构建文件
+│ ├── 📁 @openzeppelin/ # OpenZeppelin合约编译结果
+│ ├── 📁 build-info/ # 构建信息
+│ └── 📁 contracts/ # 智能合约编译产物
+│ ├── 📁 AIRiskController.sol/ # AI风险控制器编译结果
+│ └── 📁 RiskAnalyzer.sol/ # 风险分析器编译结果
 │
-├── 📁 backend/                     # 后端服务
-│   ├── 📄 .env                     # 环境变量配置
-│   ├── 📄 app.js                   # Express应用主文件
-│   ├── 📄 server.js                # 服务器启动文件
-│   ├── 📄 package.json             # 后端依赖配置
-│   ├── 📁 src/                     # 源代码目录
-│   │   ├── 📁 config/              # 配置文件
-│   │   │   ├── aiConfig.js         # AI服务配置
-│   │   │   ├── database.js         # 数据库配置
-│   │   │   └── redis.js            # Redis配置
-│   │   ├── 📁 middleware/          # 中间件
-│   │   │   └── rateLimiter.js      # 速率限制中间件
-│   │   ├── 📁 models/              # 数据模型
-│   │   │   ├── AnalysisResult.js   # 分析结果模型
-│   │   │   ├── TestAnalysisResult.js # 测试分析结果
-│   │   │   └── TestTransaction.js  # 测试交易模型
-│   │   ├── 📁 routes/              # API路由
-│   │   │   ├── aiMonitoringRoutes.js # AI监控路由
-│   │   │   ├── aiRiskControl.js    # AI风险控制路由
-│   │   │   ├── contracts.js        # 合约相关路由
-│   │   │   ├── pools.js            # 流动性池路由
-│   │   │   └── riskAnalysis.js     # 风险分析路由
-│   │   ├── 📁 services/            # 业务服务层
-│   │   │   ├── aiAnalysisService.js      # Qwen AI分析服务
-│   │   │   ├── aiMonitoringService.js    # AI监控服务
-│   │   │   ├── aiRiskAnalyzer.js         # AI风险分析器
-│   │   │   ├── aiRiskControlService.js   # AI风险控制服务
-│   │   │   ├── blockchainDataService.js  # 区块链数据服务
-│   │   │   ├── confidenceCalculator.js   # 置信度计算器
-│   │   │   ├── contractService.js        # 合约服务
-│   │   │   ├── dependencyTrustService.js # 依赖信任服务
-│   │   │   ├── etherscanService.js       # Etherscan API服务
-│   │   │   ├── onchainBehaviorService.js # 链上行为分析
-│   │   │   ├── staticAnalysisService.js  # 静态分析服务
-│   │   │   └── testAnalysisService.js    # 测试分析服务
-│   │   ├── 📁 scripts/             # 脚本工具
-│   │   │   ├── backupData.js       # 数据备份脚本
-│   │   │   ├── importToHeike.js    # 数据导入脚本
-│   │   │   └── restoreData.js      # 数据恢复脚本
-│   │   └── 📁 utils/               # 工具函数
-│   │       └── logger.js           # 日志工具
-│   ├── 📁 logs/                    # 日志文件
-│   └── 📄 test- .js                # 各种测试文件
+├── 📁 backend/ # 后端服务
+│ ├── 📄 .env # 环境变量配置
+│ ├── 📄 app.js # Express应用主文件
+│ ├── 📄 server.js # 服务器启动文件
+│ ├── 📄 package.json # 后端依赖配置
+│ ├── 📁 src/ # 源代码目录
+│ │ ├── 📁 config/ # 配置文件
+│ │ │ ├── aiConfig.js
+│ │ │ ├── database.js
+│ │ │ └── redis.js
+│ │ ├── 📁 middleware/ # 中间件
+│ │ │ └── rateLimiter.js
+│ │ ├── 📁 models/ # 数据模型
+│ │ │ ├── AnalysisResult.js
+│ │ │ ├── TestAnalysisResult.js
+│ │ │ └── TestTransaction.js
+│ │ ├── 📁 routes/ # API路由
+│ │ │ ├── aiMonitoringRoutes.js
+│ │ │ ├── aiRiskControl.js
+│ │ │ ├── contracts.js
+│ │ │ ├── pools.js
+│ │ │ └── riskAnalysis.js
+│ │ ├── 📁 services/ # 业务服务层
+│ │ │ ├── aiAnalysisService.js
+│ │ │ ├── aiMonitoringService.js
+│ │ │ ├── aiRiskAnalyzer.js
+│ │ │ ├── aiRiskControlService.js
+│ │ │ ├── blockchainDataService.js
+│ │ │ ├── confidenceCalculator.js
+│ │ │ ├── contractService.js
+│ │ │ ├── dependencyTrustService.js
+│ │ │ ├── etherscanService.js
+│ │ │ ├── onchainBehaviorService.js
+│ │ │ ├── staticAnalysisService.js
+│ │ │ └── testAnalysisService.js
+│ │ ├── 📁 scripts/ # 脚本工具
+│ │ │ ├── backupData.js
+│ │ │ ├── importToHeike.js
+│ │ │ └── restoreData.js
+│ │ └── 📁 utils/ # 工具函数
+│ │ └── logger.js
+│ ├── 📁 logs/ # 日志文件
+│ └── 📄 test-.js # 各种测试文件
 │
-├── 📁 contracts/                   # 智能合约源码
-│   ├── 📄 AIRiskController.sol     # AI风险控制器合约
-│   └── 📄 RiskAnalyzer.sol         # 风险分析器合约
+├── 📁 contracts/ # 智能合约源码
+│ ├── 📄 AIRiskController.sol
+│ └── 📄 RiskAnalyzer.sol
 │
-├── 📁 frontend/                    # 前端应用
-│   ├── 📄 .env                     # 前端环境变量
-│   ├── 📄 index.html               # HTML入口文件
-│   ├── 📄 package.json             # 前端依赖配置
-│   ├── 📄 vite.config.js           # Vite构建配置
-│   ├── 📁 public/                  # 静态资源
-│   │   └── vite.svg                # Vite图标
-│   └── 📁 src/                     # 前端源码
-│       ├── 📄 App.vue              # 根组件
-│       ├── 📄 main.js              # 应用入口
-│       ├── 📁 components/          # Vue组件
-│       │   ├── AIAnalysisPanel.vue      # AI分析面板
-│       │   ├── AutoMonitoringPanel.vue  # 自动监控面板
-│       │   ├── FocusButton.vue          # 焦点按钮组件
-│       │   ├── HomePage.vue             # 主页组件
-│       │   └── RiskWarningModal.vue     # 风险警告弹窗
-│       ├── 📁 locales/             # 国际化文件
-│       │   ├── en-US.js            # 英文语言包
-│       │   ├── zh-CN.js            # 中文语言包
-│       │   └── index.js            # 语言配置入口
-│       ├── 📁 services/            # 前端服务层
-│       │   ├── aiMonitoringAPI.js        # AI监控API
-│       │   ├── aiRiskControlService.js   # AI风险控制服务
-│       │   ├── riskAnalysisService.js    # 风险分析服务
-│       │   └── transactionSecurityService.js # 交易安全服务
-│       └── 📁 stores/              # 状态管理
-│           └── web3.js             # Web3状态管理
+├── 📁 frontend/ # 前端应用
+│ ├── 📄 .env
+│ ├── 📄 index.html
+│ ├── 📄 package.json
+│ ├── 📄 vite.config.js
+│ ├── 📁 public/ # 静态资源
+│ │ └── vite.svg
+│ └── 📁 src/ # 前端源码
+│ ├── 📄 App.vue
+│ ├── 📄 main.js
+│ ├── 📁 components/ # Vue组件
+│ │ ├── AIAnalysisPanel.vue
+│ │ ├── AutoMonitoringPanel.vue
+│ │ ├── FocusButton.vue
+│ │ ├── HomePage.vue
+│ │ └── RiskWarningModal.vue
+│ ├── 📁 locales/ # 国际化文件
+│ │ ├── en-US.js
+│ │ ├── zh-CN.js
+│ │ └── index.js
+│ ├── 📁 services/ # 前端服务层
+│ │ ├── aiMonitoringAPI.js
+│ │ ├── aiRiskControlService.js
+│ │ ├── riskAnalysisService.js
+│ │ └── transactionSecurityService.js
+│ └── 📁 stores/ # 状态管理
+│ └── web3.js
 │
-├── 📁 scripts/                     # 部署脚本
-│   └── 📄 deploy.js                # 智能合约部署脚本
+├── 📁 scripts/ # 部署脚本
+│ └── 📄 deploy.js
 │
-├── 📁 deployments/                 # 部署记录
-│   └── 📄 deployment- .json        # 部署配置文件
+├── 📁 deployments/ # 部署记录
+│ └── 📄 deployment-.json
 │
-├── 📁 cache/                       # 缓存文件
-│   └── 📄 solidity-files-cache.json # Solidity文件缓存
+├── 📁 cache/ # 缓存文件
+│ └── 📄 solidity-files-cache.json
 │
-├── 📄 package.json                 # 根项目配置
-├── 📄 hardhat.config.js            # Hardhat配置
-├── 📄 check-balance.js             # 余额检查脚本
-├── 📄 check-transactions.js        # 交易检查脚本
-└── 📄 test-api*.js                 # API测试脚本
+├── 📄 package.json # 根项目配置
+├── 📄 hardhat.config.js # Hardhat配置
+├── 📄 check-balance.js # 余额检查脚本
+├── 📄 check-transactions.js # 交易检查脚本
+└── 📄 test-api*.js # API测试脚本
 
 ## 🔧 核心模块说明
 
