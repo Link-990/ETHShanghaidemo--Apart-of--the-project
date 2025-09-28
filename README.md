@@ -509,7 +509,7 @@ node backend/test-full-analysis.js
 
 Links [项目创建](https://github.com/Link-990)
 
-Max [模型训练贡献]([https://github.com/0vszero)
+Max [模型训练贡献][https://github.com/0vszero)
 
 ## 📄 许可证
 
